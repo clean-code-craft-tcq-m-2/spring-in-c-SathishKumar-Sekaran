@@ -1,9 +1,9 @@
-struct 
+struct Stats
 {
 	float min;
 	float max;
 	float average;
-}Stats;
+};
 
 struct Stats compute_statistics(const float* numberset, int setlength);
 
